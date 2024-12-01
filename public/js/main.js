@@ -72,24 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     })
-
-
-    
-  
-    // toggleButtons.forEach(function(toggleButton) {
-    //     toggleButton.addEventListener('click', () => {
-    //         document.documentElement.classList.toggle('dark');
-    //         if (document.documentElement.classList.contains('dark')) {
-    //           localStorage.setItem('theme', 'dark');
-    //           logoImg.src = 'images/logo-dark.png';
-    //           toggleButton.textContent = 'Light Mode';
-    //         } else {
-    //           localStorage.setItem('theme', 'light');
-    //           logoImg.src = 'images/logo-light.png';
-    //           toggleButton.textContent = 'Dark Mode';
-    //         }
-    //       });
-    // })
   });
  // Dark Mode Toggle End
 
